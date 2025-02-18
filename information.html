@@ -9,6 +9,7 @@
 
     <title>STA | Склад</title>
     <link rel="stylesheet" href="style.css">
+    
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <style>
         body {
@@ -81,6 +82,60 @@
             padding: 1rem;
             margin-top: 2rem;
         }
+
+        @media (max-width: 768px) {
+            .navigation ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .img-logo {
+                width: 80%;
+                max-width: 250px;
+            }
+
+            .img-style {
+                width: 80%;
+                max-width: 250px;
+            }
+
+        }
+
+            @media (max-width: 480px) {
+            .navigation ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .img-logo {
+                width: 80%;
+                max-width: 150px;
+            }
+
+            .img-style {
+                width: 80%;
+                max-width: 150px;
+            }
+                
+        }
     </style>
 </head>
 <body>
@@ -89,6 +144,7 @@
             <ul>
                 <li><a class="link-text" href="information.html">Склад STA</a></li>
                 <li><a class="link-text" href="aboutGame.html">Інформація</a></li>
+                <li><a class="link-text" href="GameSTA.html">Ігри</a></li>
             </ul>
         </nav>
     </header>
@@ -103,12 +159,45 @@
                 <p class="gdgsh">Наразі в STA 2 людей. <br> Це розробник <a class="link" href="#">Soly</a>, який працює над The Limit Of Iies, <br> та <a class="link" href="#">Sanyaclesh</a>, який працює над The Street Racer</p>
                 <p class="gdgsh"> Детальніше про них ви можете дізнатися з фото-картки нижче ↓</p>
 
+            <div class="detail">
                 <img class="img-style" src="img/sanyaclesh.PNG" alt="sanyaclesh" width="350px">
                 <img class="img-style" src="img/soly.PNG" alt="soly" width="350px">
-                
+            </div>
+
+            <p class="gdgsh">На чому працюють розробники? </p>     
+            <details>
+                <br>
+                <summary>
+                    Soly
+                </summary>
+            
+                <div class="answer-2">
+                    Lenovo LOQ <br>
+                    I5 12450H <br>
+                    RTX 4060 laptop <br>
+                    16GB ram <br>
+                    Win 11 Home <br
+                </div>
+            </details> 
+        
+<br>
+            <details>
+                <br>
+                <summary>
+                    Sanyaclesh
+                </summary>
+
+                <div class="answer-2">
+                Asus VivoBook <br>
+                Pentium N5000 <br>
+                MX110 2Gb <br>
+                4GB ram <br>
+                Win 10 Pro <br>
+            </div>
+            </details>
+        </div>
             </center>
 
-            </div>
         </section>
     </main>
 
